@@ -24,7 +24,6 @@ The `StudentProfile` object contains:
 ---
 
 ## Folder Structure
-## Folder Structure
 
 ```text
 rpc-marshalling-HarithaRavichandar/
@@ -40,20 +39,4 @@ rpc-marshalling-HarithaRavichandar/
 
 ---
 
-## How to Run
-1. Ensure Python 3 is installed.
-2. Navigate to the project directory.
-3. Execute:
-   ```bash
-   python client.py
 
----
-
-## Next Step 
-
-After adding or updating `README.md`:
-
-```bash
-git add README.md
-git commit -m "Add README with folder structure and project overview."
-git push origin rpc-marshalling-objects
