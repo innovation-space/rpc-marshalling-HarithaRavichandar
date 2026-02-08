@@ -1,16 +1,16 @@
 # Lab DA-1: RPC Framework with Object Marshalling
 
 ## Overview
-This project implements a Python-based Remote Procedure Call (RPC) framework that supports object marshalling and server-side type validation. It demonstrates safe client–server communication in a distributed systems context.
+This project implements a Python-based Remote Procedure Call (RPC) framework that supports object marshalling and server-side type validation. It demonstrates safe and reliable client–server communication in a distributed systems environment.
 
 ---
 
 ## Implemented Remote Procedure
 
 The `StudentProfile` object contains:
-- `name` – string
-- `id` – integer
-- `grades` – list of integers
+- name (string)
+- id (integer)
+- grades (list of integers)
 
 ---
 
@@ -38,22 +38,28 @@ rpc-marshalling-HarithaRavichandar/
 └── .gitignore       # Ignored files configuration
 
 
-## How to Run
-1. Ensure Python 3 is installed.
-2. Navigate to the project directory.
-3. Execute:
-   ```bash
-   python client.py
+How to Run
+
+Ensure Python 3 is installed.
+
+Navigate to the project directory.
+
+Run the following command:
+python client.py
+Output Behavior
+
+Valid input returns the calculated grade average.
+
+Invalid input is rejected by the server with an appropriate error message.
+
+Conclusion
+
+The project successfully demonstrates an RPC-based client–server model with object marshalling and server-side validation, ensuring type safety and reliable communication.
 
 ---
 
-## Next Step 
-
-After adding or updating `README.md`:
-
+### ✅ After Pasting (Final Step)
 ```bash
 git add README.md
-git commit -m "Add README with folder structure and project overview."
+git commit -m "Add README with folder structure and usage instructions"
 git push origin rpc-marshalling-objects
-
-
