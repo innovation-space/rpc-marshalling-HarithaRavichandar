@@ -24,6 +24,9 @@ The `StudentProfile` object contains:
 ---
 
 ## Folder Structure
+## Folder Structure
+
+```text
 rpc-marshalling-HarithaRavichandar/
 ├── client.py        # RPC client
 ├── server.py        # Remote procedure implementation
@@ -34,8 +37,6 @@ rpc-marshalling-HarithaRavichandar/
 ├── Video.md         # Screen-recorded walkthrough link
 ├── README.md        # Project documentation
 └── .gitignore       # Ignored files configuration
-
-
 
 ---
 
