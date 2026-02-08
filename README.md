@@ -25,16 +25,16 @@ The `StudentProfile` object contains:
 
 ## Folder Structure
 rpc-marshalling-HarithaRavichandar/
-│
-├── client.py # RPC client
-├── server.py # Remote procedure implementation
-├── rpc.py # Core RPC framework
-├── marshalling.py # Object marshalling and validation
-├── models.py # StudentProfile definition
-├── results.md # Experiment results
-├── Video.md # Screen-recorded walkthrough link
-├── README.md # Project documentation
-└── .gitignore # Ignored files configuration
+├── client.py        # RPC client
+├── server.py        # Remote procedure implementation
+├── rpc.py           # Core RPC framework
+├── marshalling.py   # Object marshalling and validation
+├── models.py        # StudentProfile definition
+├── results.md       # Experiment results
+├── Video.md         # Screen-recorded walkthrough link
+├── README.md        # Project documentation
+└── .gitignore       # Ignored files configuration
+
 
 
 ---
