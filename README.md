@@ -60,8 +60,4 @@ The project successfully demonstrates an RPC-based client–server model with ob
 
 ---
 
-### After Pasting (Final Step)
-```bash
-git add README.md
-git commit -m "Add README with folder structure and usage instructions"
-git push origin rpc-marshalling-objects
+
