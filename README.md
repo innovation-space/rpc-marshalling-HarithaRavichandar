@@ -45,7 +45,9 @@ Ensure Python 3 is installed.
 Navigate to the project directory.
 
 Run the following command:
+```bash
 python client.py
+```
 Output Behavior
 
 Valid input returns the calculated grade average.
@@ -58,7 +60,7 @@ The project successfully demonstrates an RPC-based client–server model with ob
 
 ---
 
-### ✅ After Pasting (Final Step)
+### After Pasting (Final Step)
 ```bash
 git add README.md
 git commit -m "Add README with folder structure and usage instructions"
